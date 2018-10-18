@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" minHeight="250.0" minWidth="250.0" prefHeight="407.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController.MainController">
+   <children>
+      <Button layoutX="58.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleBudget" text="Budget" />
+      <Button layoutX="201.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleTransactions" text="Transactions" />
+      <Text layoutX="20.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MY PERSONAL BUDGET" wrappingWidth="283.33935546875">
+         <font>
+            <Font name="Bodoni MT Black Italic" size="37.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
